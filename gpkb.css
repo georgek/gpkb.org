@@ -1,0 +1,10 @@
+body {
+    max-width: 800px;
+    margin: 3em auto;
+    background-color: #000;
+    color: #7e7;
+}
+
+a {
+    color: #7e7;
+}
