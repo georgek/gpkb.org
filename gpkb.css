@@ -3,8 +3,19 @@ body {
     margin: 3em auto;
     background-color: #000;
     color: #7e7;
+    font-family: monospace;
 }
 
 a {
     color: #7e7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:not([class]) {
+    text-underline-offset: 0.25em;
+    text-decoration-thickness: max(.08em,1px);
 }
